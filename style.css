@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+header {
+  background: #2e6b3e;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header .container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://i.imgur.com/EpYbuEa.jpg') no-repeat center center/cover;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2e6b3e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.sambutan {
+  padding: 40px 0;
+  background: #fdfdfd;
+}
+
+.sambutan .container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.sambutan img {
+  width: 180px;
+  border-radius: 10px;
+}
+
+.fitur {
+  background-color: #f3f3f3;
+  padding: 40px 0;
+}
+
+.fitur .container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.card.hijau {
+  background: #2e6b3e;
+  color: white;
+}
+
+.card.krem {
+  background: #f8f2e7;
+}
+
+.card.putih {
+  background: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #2e6b3e;
+  color: white;
+}
